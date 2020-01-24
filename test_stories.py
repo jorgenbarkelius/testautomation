@@ -24,7 +24,7 @@ class TestEHSAutomation(object):
         field_dict = self.interface_exec_tool.get_all_fields()
         button_dict = self.interface_exec_tool.get_all_buttons()
 
-        for field in button_dict.keys():
+        for key in button_dict:
             if self.interface_field.read() == 'List all items':
                 if self.interface_button.click():
                     num = 0
