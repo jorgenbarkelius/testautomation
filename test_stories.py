@@ -4,6 +4,7 @@ import pytest
 from EHS.automation import IElement, IButton, IField, IExecutionTool
 #from seleniumbase import BaseCase
 
+
 class TestEHSAutomation(object):
 
     def __init__(self):
