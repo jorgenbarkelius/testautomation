@@ -1,3 +1,3 @@
 # testautomation
 # För att köra testerna:
-#$ pytest test_stories.py
+$ pytest test_stories.py
