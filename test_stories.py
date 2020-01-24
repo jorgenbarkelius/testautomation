@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
 import pytest
-import time
 from EHS.automation import IElement, IButton, IField, IExecutionTool
-from seleniumbase import BaseCase
+#from seleniumbase import BaseCase
 
 class TestEHSAutomation(object):
 
